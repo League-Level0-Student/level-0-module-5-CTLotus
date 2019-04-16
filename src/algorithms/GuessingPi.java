@@ -23,7 +23,9 @@ public class GuessingPi {
 		System.out.println(ppi.charAt(4));
 		// 9. If you want to give the user more than one chance to guess,
 		//    put a for loop around steps 4-8.
-
+		for (int j = 0; j < 2; j++) {
+			
+		
 			// 4. Create a for loop that will step through each digit of pi (steps 5-8)
 			//    NOTE: The number of digits in your string will be
 			//       yourStringVariable.length()
@@ -36,13 +38,19 @@ public class GuessingPi {
 				//    (look at step 3 for a clue).
 				//    HINT: use charAt(0) to get 1st char of user input String 
 			System.out.println(ppi.charAt(0));
-					// 7. If they are correct, print out "correct".	
-			}
-					// 8. If they are not, print out "incorrect" and tell them
 	
+					// 7. If they are correct, print out "correct".	
+			if (next.charAt(0) == ppi.charAt(i)) {
+				System.out.println("Correct");
+			}else {
+				System.out.println("Incorrect");
+			}break;
+					// 8. If they are not, print out "incorrect" and tell them
+	}
 			//    to start over. Use 'break;' to break out of the loop.
 		}
+		
 	}
-
+}
 
 
