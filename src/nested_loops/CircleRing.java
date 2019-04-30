@@ -34,7 +34,7 @@ public class CircleRing {
     			}
     		}
 		// 9. do steps 10 and 11 exactly 360 times (use j as the counter)
-
+    		
 				// 10. Move the robot 1 pixel
     			// 11. Turn the robot 1 degree
     	}
